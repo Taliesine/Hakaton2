@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/WSFBb6xxyrzAbrrVyABvLmDBP/nFeVqNw0rnG39faANACxh1Oj7gDhLLWpwmUpq0QH9i8lGpYH414IVMT2tQ==",
+  "dgSpecHash": "Rb6Olkwj4VczjzEu7bf9rHAafpJWz9A1b3tP4LQA4QzpZ2GZM2w8NMJGVBJPVfcw6ZpSta8QWb+DwQ+QS1ZIlg==",
   "success": true,
-  "projectFilePath": "G:\\Projects\\Hakaton\\Hakaton\\Hakaton.csproj",
+  "projectFilePath": "d:\\Hakaton2\\Hakaton\\Hakaton.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\George\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.7\\microsoft.data.sqlite.core.6.0.7.nupkg.sha512",

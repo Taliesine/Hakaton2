@@ -1,22 +1,20 @@
 ﻿@page "/"
 @inject NavigationManager navigation
 
-<link href="/css/profile.css" rel="stylesheet" type="text/css">
 
 <PageTitle>Выбор профиля для презентации</PageTitle>
 
 
-        <link href="/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="/css/loginPage.css" rel="stylesheet" type="text/css">
 
         <div class="container">
 
-                ЗДЕСЬ ЧЕТЫРЕ КАРТИНКИ ИЛИ НАДПИСИ
 
                 
-                <button class="btn btn-primary"  @onclick="Gendir">ГЕН ДИР</button>
-                <button class="btn btn-primary"  @onclick="Rukproekta">Руководитель проекта</button>
-                <button class="btn btn-primary"  @onclick="Brigadir">Бригадир</button>
-                <button class="btn btn-primary"  @onclick="Raboch">Рабочий</button>
+                <button class="btn btn_choice"  @onclick="Gendir">Генеральный Директор</button>
+                <button class="btn btn_choice"  @onclick="Rukproekta">Руководитель проекта</button>
+                <button class="btn btn_choice"  @onclick="Brigadir">Бригадир</button>
+                <button class="btn btn_choice"  @onclick="Raboch">Рабочий</button>
 
         </div>
 

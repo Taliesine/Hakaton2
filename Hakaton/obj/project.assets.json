@@ -1175,11 +1175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projects\\Hakaton\\Hakaton\\Hakaton.csproj",
+      "projectUniqueName": "d:\\Hakaton2\\Hakaton\\Hakaton.csproj",
       "projectName": "Hakaton",
-      "projectPath": "G:\\Projects\\Hakaton\\Hakaton\\Hakaton.csproj",
+      "projectPath": "d:\\Hakaton2\\Hakaton\\Hakaton.csproj",
       "packagesPath": "C:\\Users\\George\\.nuget\\packages\\",
-      "outputPath": "G:\\Projects\\Hakaton\\Hakaton\\obj\\",
+      "outputPath": "d:\\Hakaton2\\Hakaton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\George\\AppData\\Roaming\\NuGet\\NuGet.Config",

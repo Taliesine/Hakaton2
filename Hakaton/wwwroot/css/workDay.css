@@ -1,0 +1,52 @@
+.dayStarted {
+    background: #FF001C;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    width: 40%;
+    display: block;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    color: white;
+}
+
+.table{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.inline_elem {
+    display: inline-block;
+}
+
+.black_area {
+    background: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.green_area {
+    background: #37DF34;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.white_area {
+    background: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.block {
+    display: block;
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    width: 50%;
+}

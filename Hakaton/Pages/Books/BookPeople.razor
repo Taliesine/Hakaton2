@@ -1,13 +1,9 @@
-﻿@using Hakaton.Entityes;
-@using Hakaton.Services;
+﻿@using Hakaton.Services
 
+@page "/BookPeople"
 @layout RukLayout 
-
 @inject DBService DB;
-
 @inject NavigationManager NM;
-
-@page "/Rukproekta"
 
 <link href="/css/profile.css" rel="stylesheet" type="text/css">
 
@@ -17,10 +13,9 @@
         <link href="/css/menu.css" rel="stylesheet" type="text/css">
 
         <div class="container">
-            
-            @if(works is null)
+            @if(peoples is null)
             {
-                <p><em>Загрузка работ по объекту... !</em></p>
+                <p><em>Загрузка списка специалистов... !</em></p>
             }
             else
             {
@@ -28,25 +23,22 @@
                     <thead>
                         <tr>
                             <th>Id</th>
-                            <th>Название</th>
-                            <th>Описание</th>
-                            <th>Всего оспециалистов</th>
-                            <th>Всего техники</th>
-                            <th>Материалы</th>
-                            <th>Метеоусловия</th>
+                            <th>ФИО</th>
+                            <th>Возраст</th>
+                            <th>Специальность</th>
+                            <th>Рейтинг</th>
+
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach(Work item in works)
+                        @foreach(People item in peoples)
                             {
                         <tr>
                             <td>@item.Id</td>
                             <td>@item.Name</td>
-                            <td>@item.Description</td>
-                            <td>@item.Peoples.Count.ToString()</td>
-                            <td>@item.Technices.Count.ToString()</td>
-                            <td>@item.Materials.Count.ToString()</td>
-                            <td>@item.Meteos.Count.ToString()</td>
+                            <td>@item.Age</td>
+                            <td>@item.Spetial</td>
+                            <td>@item.Rating</td>
 
                             @*<td>
                                 <a class="nav-link" href="EditEmployee/@emp.Id">
@@ -62,19 +54,20 @@
                 </table>
             }
 
-        <button class="btn btn-primary"  @onclick="AddWork">Добавить работу</button>        
+        <button class="btn btn-primary"  @onclick="AddWork">Добавить специалиста</button>      
                 
 
         </div>
 
-@code{
+@code
+{
 
-    List<Work> works;
+    List<People> peoples;
     bool LoadData = true;
 
     protected override async Task OnInitializedAsync()
     {
-        works = DB.DataBase.Works;
+        peoples = DB.DataBase.Peoples;
         LoadData = false;
     }
 

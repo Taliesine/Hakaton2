@@ -98,7 +98,6 @@ d:\Hakaton2\Hakaton\obj\Debug\net6.0\Hakaton.RazorAssemblyInfo.cache
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\Hakaton.RazorAssemblyInfo.cs
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\staticwebassets.build.json
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\staticwebassets.development.json
-d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\bundle\Hakaton.styles.css
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\projectbundle\Hakaton.bundle.scp.css
@@ -108,3 +107,5 @@ d:\Hakaton2\Hakaton\obj\Debug\net6.0\refint\Hakaton.dll
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\Hakaton.pdb
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\Hakaton.genruntimeconfig.cache
 d:\Hakaton2\Hakaton\obj\Debug\net6.0\ref\Hakaton.dll
+d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\Shared\Layouts\MainLayout.razor.rz.scp.css
+d:\Hakaton2\Hakaton\obj\Debug\net6.0\scopedcss\Shared\Layouts\RukLayout.razor.rz.scp.css

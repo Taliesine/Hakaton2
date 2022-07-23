@@ -1,18 +1,20 @@
-﻿namespace Hakaton.Entityes
+﻿using System.Xml.Serialization;
+
+namespace Hakaton.Entityes
 {
+    [Serializable]
+    [XmlRoot]
     public class Material
     {
+        [XmlElement]
         public int Id { get; set; }
+        [XmlElement("Works")]
         public string Name { get; set; }
 
-        /// <summary>
-        /// Единица измерения
-        /// </summary>
+        [XmlElement("Works")]
         public string Unit { get; set; }
 
-        /// <summary>
-        /// Количество
-        /// </summary>
+        [XmlElement("Works")]
         public int Amount { get; set; }
 
     }

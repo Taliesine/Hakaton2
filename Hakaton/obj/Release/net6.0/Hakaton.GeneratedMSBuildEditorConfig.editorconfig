@@ -19,6 +19,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[d:/Hakaton2/Hakaton/Pages/Books/BookMaterials.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQm9va01hdGVyaWFscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Hakaton2/Hakaton/Pages/Books/BookMeteo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQm9va01ldGVvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Hakaton2/Hakaton/Pages/Books/BookPeople.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQm9va1Blb3BsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Hakaton2/Hakaton/Pages/Books/BookTechnik.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQm9va1RlY2huaWsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [d:/Hakaton2/Hakaton/Pages/ProfilePages/Brigadir.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXEJyaWdhZGlyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -33,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [d:/Hakaton2/Hakaton/Pages/ProfilePages/Rukproekta.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXFJ1a3Byb2VrdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Hakaton2/Hakaton/Shared/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJvb2tzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [d:/Hakaton2/Hakaton/Shared/Index.razor]
@@ -67,9 +87,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Hakaton2/Hakaton/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-89p361ktd0
+[d:/Hakaton2/Hakaton/Shared/Layouts/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y4un6cvqvx
+
+[d:/Hakaton2/Hakaton/Shared/Layouts/RukLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExheW91dHNcUnVrTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-artdqets40
 
 [d:/Hakaton2/Hakaton/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=

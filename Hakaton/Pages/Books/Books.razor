@@ -1,0 +1,44 @@
+﻿@page "/books"
+@inject NavigationManager navigation
+
+
+<PageTitle>Выбор профиля для презентации</PageTitle>
+
+
+        <link href="/css/loginPage.css" rel="stylesheet" type="text/css">
+
+        <div class="container">
+
+
+                
+                <button class="btn btn_choice"  @onclick="Peoples">Специалисты</button>
+                <button class="btn btn_choice"  @onclick="Techniks">Техника</button>
+                <button class="btn btn_choice"  @onclick="Materials">Материалы</button>
+                <button class="btn btn_choice"  @onclick="Meteos">Метеоусловия</button>
+
+        </div>
+
+@code{
+    private void Techniks()
+    {
+        navigation.NavigateTo("/BookTechnik");
+    }
+
+    private void Peoples()
+    {
+        navigation.NavigateTo("/BookPeople");
+
+    }
+
+    private void Meteos()
+    {
+        navigation.NavigateTo("/BookMeteo");
+    }
+
+    private void Materials()
+    {
+        navigation.NavigateTo("/BookMaterials");
+    }
+
+
+}

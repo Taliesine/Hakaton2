@@ -1,5 +1,8 @@
-﻿namespace Hakaton.Entityes
+﻿using System.Xml.Serialization;
+
+namespace Hakaton.Entityes
 {
+    
     public enum Spetials
     {
         Бульдозерист,

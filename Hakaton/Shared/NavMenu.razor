@@ -13,9 +13,7 @@
                         <img src="img/dropdown.svg" class="accountImg dropdown_icon"/>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li class="menu_element"><a class="menu_link active" href="/Index">Главная</a></li>
-                        <li class="menu_element"><a class="menu_link" href="/Account/Profile">Профиль</a></li>
-                        <li class="menu_element"><a class="menu_link logout" href="/Account/LogOut">Выйти</a></li>
+                        <li class="menu_element"><a class="menu_link active" href="/books">Справочники</a></li>
                       </ul>
                     </div>
                 </form>
@@ -24,7 +22,7 @@
 
         </div>
 
-@*@code {
+@code {
     private bool collapseNavMenu = true;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
@@ -33,4 +31,4 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
-}*@
+}

@@ -1,0 +1,90 @@
+﻿@using Hakaton.Entityes;
+@using Hakaton.Services;
+
+@inject DBService DB;
+
+@inject NavigationManager NM;
+
+@page "/Rukproekta"
+
+<link href="/css/profile.css" rel="stylesheet" type="text/css">
+
+<PageTitle>Выбор профиля для презентации</PageTitle>
+
+
+        <link href="/css/menu.css" rel="stylesheet" type="text/css">
+
+        <div class="container">
+            
+            @if(works is null)
+            {
+                <p><em>Загрузка работ по объекту... !</em></p>
+            }
+            else
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Название</th>
+                            <th>Описание</th>
+                            <th>Всего оспециалистов</th>
+                            <th>Всего техники</th>
+                            <th>Материалы</th>
+                            <th>Метеоусловия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(Work item in works)
+                            {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td>@item.Peoples.Count.ToString()</td>
+                            <td>@item.Technices.Count.ToString()</td>
+                            <td>@item.Materials.Count.ToString()</td>
+                            <td>@item.Meteos.Count.ToString()</td>
+
+                            @*<td>
+                                <a class="nav-link" href="EditEmployee/@emp.Id">
+                                    <span class="oi oi-pencil" aria-hidden="true">Edit</span>
+                                </a>
+                                <a class="nav-link" href="Delete/@emp.Id">
+                                    <span class="oi oi-trash" aria-hidden="true">Delete</span>
+                                </a>
+                            </td>*@
+                        </tr>
+                            }
+                    </tbody>
+                </table>
+                foreach (Work item in works)
+                {
+                    @item.Name  @item.Description  @item.Peoples.Count.ToString()
+                }
+            }
+
+        <button class="btn btn-primary"  @onclick="AddWork">Добавить работу</button>        
+                
+
+        </div>
+
+@code{
+
+    List<Work> works;
+    bool LoadData = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        works = DB.DataBase.Works;
+        LoadData = false;
+    }
+
+    private void AddWork()
+    {
+        NM.NavigateTo("/NewWork");
+
+
+        StateHasChanged();
+    }
+}

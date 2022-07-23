@@ -1,0 +1,46 @@
+﻿@page "/"
+@inject NavigationManager navigation
+
+<link href="/css/profile.css" rel="stylesheet" type="text/css">
+
+<PageTitle>Выбор профиля для презентации</PageTitle>
+
+
+        <link href="/css/menu.css" rel="stylesheet" type="text/css">
+
+        <div class="container">
+
+                ЗДЕСЬ ЧЕТЫРЕ КАРТИНКИ ИЛИ НАДПИСИ
+
+                
+                <button class="btn btn-primary"  @onclick="Gendir">ГЕН ДИР</button>
+                <button class="btn btn-primary"  @onclick="Rukproekta">Руководитель проекта</button>
+                <button class="btn btn-primary"  @onclick="Brigadir">Бригадир</button>
+                <button class="btn btn-primary"  @onclick="Raboch">Рабочий</button>
+
+        </div>
+
+@code{
+    private void Rukproekta()
+    {
+        navigation.NavigateTo("/Rukproekta");
+    }
+
+    private void Gendir()
+    {
+        navigation.NavigateTo("/Gendir");
+
+    }
+
+    private void Raboch()
+    {
+        navigation.NavigateTo("/Raboch");
+    }
+
+    private void Brigadir()
+    {
+        navigation.NavigateTo("/Brigadir");
+    }
+
+
+}

@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hakaton
+build_property.RootNamespace = Hakaton
+build_property.ProjectDir = G:\Projects\Hakaton\Hakaton\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Projects\Hakaton\Hakaton
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Projects/Hakaton/Hakaton/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Pages/ProfilePages/Brigadir.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXEJyaWdhZGlyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Pages/ProfilePages/Gendir.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXEdlbmRpci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Pages/ProfilePages/Raboch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXFJhYm9jaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Pages/ProfilePages/Rukproekta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVBhZ2VzXFJ1a3Byb2VrdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/Jobs.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEpvYnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/NewWork.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5ld1dvcmsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/WorkDay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFdvcmtEYXkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-89p361ktd0
+
+[G:/Projects/Hakaton/Hakaton/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0s88p2qiwx
+
+[G:/Projects/Hakaton/Hakaton/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Projects/Hakaton/Hakaton/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

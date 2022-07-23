@@ -1,0 +1,36 @@
+﻿<div class="container menu_navbar">
+
+            <div class="navbar">
+
+                <div class=" col-6 menu_container">
+                    <img src="img/accountImg.svg" class="accountImg"/>
+                </div>
+
+                <form class="d-flex align-items-center">
+                    <img src="img/notifications.svg" class="accountImg"/>
+                    <div class="dropdown">
+                      <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/dropdown.svg" class="accountImg dropdown_icon"/>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li class="menu_element"><a class="menu_link active" href="/Index">Главная</a></li>
+                        <li class="menu_element"><a class="menu_link" href="/Account/Profile">Профиль</a></li>
+                        <li class="menu_element"><a class="menu_link logout" href="/Account/LogOut">Выйти</a></li>
+                      </ul>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+@*@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}*@

@@ -1,22 +1,127 @@
 ﻿@page "/Raboch"
+@inject NavigationManager NM;
+<link href="/css/index.css" rel="stylesheet" type="text/css">
 
+<PageTitle>Главная</PageTitle>
 
-<link href="/css/profile.css" rel="stylesheet" type="text/css">
-
-<PageTitle>Выбор профиля для презентации</PageTitle>
-
+<NavMenu />
 
         <link href="/css/menu.css" rel="stylesheet" type="text/css">
 
-        <div class="container">
+        <div class="rating">
 
-                
-                
+            <b class="light_grey">Рейтинг:</b>
+            <span class="stars">
+                <img src="img/star.svg" class="accountImg dropdown_icon"/>
+                <img src="img/star.svg" class="accountImg dropdown_icon"/>
+                <img src="img/star.svg" class="accountImg dropdown_icon"/>
+                <img src="img/star.svg" class="accountImg dropdown_icon"/>
+                <img src="img/star.svg" class="accountImg dropdown_icon"/>
+            </span>
+            <b class="dark_grey">4,97</b>
 
         </div>
 
+        <div class="container">
+
+                <div class="row block"> 
+                    
+                    <div class="col-12">
+
+                        <p class="light_grey">Начисленная зарплата</p>
+                        <b class="dark_grey money">20 000 ₽</b>
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div class="container">
+
+                <div class="row block"> 
+                    
+                    <div class="col-12">
+
+                        <p class="light_grey today_plans">Планы на сегодня</p>
+                        
+                        <div class="task">
+                            <p>Вырыть траншею 100 м</p>
+                            <p class="light_grey">97%</p>
+                            <div class="progress">
+                              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" 
+                                style="width: 97%" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="task">
+                            <p>Поставить опалубку</p>
+                            <p class="light_grey">40%</p>
+                            <div class="progress">
+                              <div class="progress-bar progress-bar-striped" role="progressbar" 
+                                style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="task">
+                            <p>План 3</p>
+                            <p class="light_grey">5%</p>
+                            <div class="progress">
+                              <div class="progress-bar progress-bar-striped" role="progressbar" 
+                                style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div class="container">
+
+                <div class="row block"> 
+                    
+                    <div class="col-12">
+
+                        <p class="light_grey today_plans">Проделанная работа</p>
+                        
+                        <div class="complete_task">
+                            
+                            <img src="img/completeIcon.svg" class="completeIcon"/>
+                            <p>Задача 1</p>
+
+                        </div>
+
+                        <div class="complete_task">
+                            
+                            <img src="img/completeIcon.svg" class="completeIcon"/>
+                            <p>Задача 2</p>
+
+                        </div>
+
+                        <div class="complete_task">
+                            
+                            <img src="img/completeIcon.svg" class="completeIcon"/>
+                            <p>Задача 3</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </div>
+
+        <button class="btn btn-danger" @onclick="Jobs">Начать рабочий день</button>
+
 @code{
-    
+
+    private void Jobs()
+    {
+        NM.NavigateTo("/Jobs");
+    }
     protected override async Task OnInitializedAsync()
     {
         

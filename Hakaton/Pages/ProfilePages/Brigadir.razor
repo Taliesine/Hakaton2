@@ -1,16 +1,120 @@
 ﻿@page "/Brigadir"
 
-<link href="/css/profile.css" rel="stylesheet" type="text/css">
+<link href="/css/brigadir.css" rel="stylesheet" type="text/css">
 
 <PageTitle>Выбор профиля для презентации</PageTitle>
 
 
         <link href="/css/menu.css" rel="stylesheet" type="text/css">
 
+        <NavMenu />
+
         <div class="container">
 
+            <div class="row block">
                 
-                
+                <div class="col-6 first_weather_block">
+                    <p class="light_purple">Краснодар</p>
+                    <p class="dark_purple">18:20</p>
+                    <p class="light_purple">Допущены к работе</p>
+                </div>
+
+                <div class="col-6 weather">
+                    <img src="img/weatherIcon.svg" />
+                    <p class="dark_purple_big">18° C</p>
+                </div>
+
+            </div>
+
+            <h5 class="dark_purple_big">Ваши бригады работают здесь</h5>
+
+            <div class="row block">
+                <div class="col-12">
+                    <p class="light_purple">Торговый комплекс</p>
+                </div>
+                <hr/>
+                <div class="col-12">
+                    <p class="light_purple">Административное здание</p>
+                </div>
+            </div>
+
+            <h5 class="dark_purple_big">Сдать отчёты</h5>
+
+            <div class="row block">
+                <div class="col-12">
+                    <p class="light_purple">1. Акт выполненных работ №145 Руководителю проекта - Семухин М. А.</p>
+                </div>
+                <hr/>
+                <div class="col-12">
+                    <p class="light_purple">2. Ведомость по отработанным часам - бухгалтер по ЗП - Шаповалова А. А.</p>
+                </div>
+                <hr/>
+                <div class="col-12">
+                    <p class="light_purple">3. Зарплатная ведомость - бухгалтер по зарплате - Шаповалова А. А.</p>
+                </div>
+            </div>
+
+            <h5 class="dark_purple_big">Предстоящая работа</h5>
+
+            <div class="row block d-flex justify-content-center">
+                <div class="col">
+                    <p class="align-self-start">Перетаскать кирпичи</p>     
+                    <p class="completed align-self-end">Выполнено</p>
+                </div>
+                <div class="col">
+                    <p class="p-2 bd-highlight date">23.07</p>
+                </div>
+            </div>
+
+            <div class="row block d-flex justify-content-center">
+                <div class="col">
+                    <p class="align-self-start">Выкопать траншею</p>     
+                    <p class="completed align-self-end">Выполнено</p>
+                </div>
+                <div class="col">
+                    <p class="p-2 bd-highlight date">24.07</p>
+                </div>
+            </div>
+
+            <div class="row block d-flex justify-content-center">
+                <div class="col">
+                    <p class="align-self-start">Поставить опалубку</p>     
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p class="p-2 bd-highlight date">25.07</p>
+                </div>
+            </div>
+
+            <h5 class="dark_purple_big">Ваш личный доход</h5>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 brick">
+                    <p class="bricks_text">Отработано</p>
+                    <b class="bricks_blue">23 дня</b>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 brick">
+                    <p class="bricks_text">Начислено</p>
+                    <b class="bricks_green">58000 ₽</b>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 brick">
+                    <p class="bricks_text">Штрафы</p>
+                    <b class="bricks_red">3000 ₽ </b>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 brick">
+                    <p class="bricks_text">В подотчёте</p>
+                    <b class="bricks_purple">80800 ₽</b>
+                </div>
+            </div>
+
+            <div class="row block">
+                <div class="col-6 big_brick">
+                    <p class="bricks_text">Итого</p>
+                    <b class="bricks_purple">55000 ₽</b>
+                </div>
+            </div>
 
         </div>
 

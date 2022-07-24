@@ -1,10 +1,24 @@
 .block {
-    display: block;
     margin: 30px auto 30px auto;
-    padding: 10px;
+    padding: 15px 10px 5px 10px;
     width: 50%;
     background: #FFFFFF;
     border-radius: 30px;
+/*    text-align: center;*/
+}
+
+.align-self-center{
+    text-align: center;
+}
+
+.progress{
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    background-color: rgba(164, 180, 203, 1);
+    height: 1px;
 }
 
 .light_purple {
@@ -13,7 +27,27 @@
 }
 
 .weather > img{
-    width: 40px;
+    width: 30px;
+}
+
+.first_weather_block, .weather {
+    display: inline-block;
+    line-height: 15px;
+}
+
+.weather {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.date{
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
 }
 
 .dark_purple {
@@ -29,7 +63,96 @@
 .weather > p, .weather > img{
     display: inline-block;
     text-align: right;
+}
 
+.bricks_blue {
+    width: 100%;
+    font-size: 23px;
+    color: #01B8E3;
+    text-align: right;
+}
+
+.bricks_green {
+    font-size: 23px;
+    color: #34A853;
+    text-align: right;
+}
+
+.bricks_red {
+    font-size: 23px;
+    color: #FF0000;
+    text-align: right;
+}
+
+.bricks_purple {
+    font-size: 23px;
+    color: #bc6bff;
+    text-align: right;
+}
+
+.completed {
+    text-align: center;
+    width: 150px;
+    padding: 5px 20px 5px 20px;
+    color: #34A853;
+    background: rgba(55, 223, 52, 0.1);
+    border-radius: 5px;
+}
+
+.start {
+    text-align: center;
+    width: 150px;
+    padding: 5px 20px 5px 20px;
+    color: #7B7B7B;
+    background: rgba(123, 123, 123, 0.1);
+}
+
+.progress{
+    width: 150px;
+}
+
+.brick {
+    width: 23%;
+    text-align: right;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+}
+
+.bricks_text {
+    text-align: left;
+    font-size: 23px;
+    color: #A4B4CB;
+}
+
+.big_brick {
+    width: 100%;
+    text-align: right;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .brick {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .brick {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .brick {
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 1100px) {

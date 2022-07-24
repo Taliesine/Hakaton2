@@ -68,6 +68,10 @@
     left: 30%;
 }
 
+.last_elem {
+    margin-bottom: 100px;
+}
+
 @media screen and (max-width: 1100px) {
     .block {
         width: 80%;

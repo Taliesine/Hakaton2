@@ -1,0 +1,80 @@
+﻿@page "/EditWork"
+@layout RukLayout 
+
+@using Hakaton.Entityes
+@using Hakaton.Services;
+
+@inject DBService workService
+@inject NavigationManager NavigationManager
+
+<link href="/css/editWork.css" rel="stylesheet" type="text/css">
+
+<PageTitle>О работе</PageTitle>
+
+<div class="container">
+
+    <h2> <img src="img/go_back.svg" /> Работа</h2>
+
+    <h3 class="title">Газопровод к  Литеру В</h3>
+    <p>от распределительного центра до вводного трубопровода</p>
+    <a href="#">https://docs.ru</a>
+
+    <div class="row tesk_details">
+        <p class="work_task"> <span class="count">1</span> Подготовка траншеи под газопровод</p>
+
+        <h3>СПЕЦИАЛИСТЫ <img src="img/add_btn.svg" /> </h3>
+
+        <div class="col">
+            <p>Рабочие</p>
+            <p>Машинист экскаватора</p>
+        </div>
+
+        <div class="col">
+            <p>8 человек</p>
+            <p>2 человека</p>
+        </div>
+
+        <h3>ТЕХНИКА <img src="img/add_btn.svg" /> </h3>
+
+        <table>
+          <tr>
+            <td>Экскаватор однокубковый</td>
+            <td>16 ч</td>
+            <td>1500р/час</td>
+            <td>24000 р</td>
+          </tr>
+          <tr>
+            <td>Бульдозер</td>
+            <td>12 ч</td>
+            <td>2000р/час</td>
+            <td>24000 р</td>
+          </tr>
+        </table>
+
+        <h3>МАТЕРИАЛЫ </h3>
+        <ul>
+            <li>Цемент</li>
+            <li>Доски</li>
+        </ul>
+
+        <h3>МЕТЕОУСЛОВИЯ <img src="img/add_btn.svg" /> </h3>
+        <p>без сильных осадков</p>
+        <p>до 20 м/с</p>
+        <p>не ниже -5 °C</p>
+
+    </div>
+
+</div>
+
+@code {
+    Work obj = new Work();
+    protected async void CreateEmployee()
+    {
+        await workService.InsertWork(obj);
+        NavigationManager.NavigateTo("Rukproekta");
+    }
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("Rukproekta");
+    }
+}
